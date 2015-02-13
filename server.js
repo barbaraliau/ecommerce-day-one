@@ -46,10 +46,6 @@ app.post('/api/products', function(req, res){
 })
 
 
-
-
-
-
 //----listen---//
 app.listen(port, function(){
 	console.log("Listening on port " + port);
